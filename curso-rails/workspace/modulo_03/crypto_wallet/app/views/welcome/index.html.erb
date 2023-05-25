@@ -1,0 +1,23 @@
+<h1>Seja Bem-vindo!</h1>
+<p><strong>Data atual: <%= method_br(Date.today) %></strong></p>
+<p><%= app_name %></p>
+<p><%= app_name %></p>
+<p><%= app_name %></p>
+<p><%= app_name %></p>
+
+<ul>
+    <li>
+        <a href="/coins">Cadastro de Moedas</a>
+    </li>
+
+<%= render "menu" %>
+
+<p>
+    Você está no ambiente de <strong><%= ambiente_rails %></strong>
+</p>
+<p>
+   Eu sou uma variável de instância/sessão <strong><%= @meu_nome %></strong> <!-- @nome está presente nos controllers de welcome -->
+</p>
+<p>
+   Eu sou uma variável de instância/sessão <strong><%= @curso %></strong> <!-- @nome está presente nos controllers de welcome -->
+</p>

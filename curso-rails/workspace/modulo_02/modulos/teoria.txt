@@ -1,0 +1,24 @@
+Todas as pastas presentes em modulos são para mostrar os exemplos de 
+múdulos ligadas com constantes, métodos e classes.
+
+Listando Gems:
+Gems instaladas localmente > gem list
+Pesquisa aproximada(Localmente) > gem list <nome da gem>
+Pesquisa aproximada(remotamente) > gem list <nome da gem> --remote
+Pesquisa aproximada(remotamente para todas as versões) > gem list <nome da gem > --remote --all
+
+Removendo versões antigas > gem cleanup
+
+Verifica versões que serão apagadas > gem cleanup -d
+
+
+                BUNDLER
+                
+O bundler é uma gem! 
+Crie um arquivo Gemfile > Só renomear o nome de um arquivo de Gemfile
+Adicione um repositório > source 'https://rubygems.org
+
+Adicione as gems que deseja instalar > 
+gem 'lerolero'
+gem 'cpf_utils'
+gem 'faker'
